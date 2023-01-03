@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>EBF among working mothers survey</title>
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <style>
+            .div1{
+                background-color: gold;
+                width: 90%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                border-radius: 2%;
+                height: auto;
+                margin: 0 auto;
+            }
+            .div2{
+                background-color: black;
+                width: 98%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                border-radius: 2%;
+                height: auto;
+                margin: 0 auto;
+            }
+            .div3{
+                background-color: whitesmoke;
+                width: 96%;
+                padding-top: 1%;
+                padding-bottom: 1%;
+                border-radius: 2%;
+                padding-left: 1%;
+                padding-right: 1%;
+                height: auto;
+                margin: 0 auto;
+            }
+            fieldset{
+                background-color: whitesmoke;
+                width: 90%;
+                border: 20;
+                border-color: darkturquoise;
+                height: auto;
+                margin: 0 auto;
+            }
+            span{
+                color:red;
+            }
+            .header{
+                background-color: aqua;
+                max-height: 10vw;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                
+            }
+            .header>button{
+                
+                margin-left: 10vw;
+                margin-right: 10vw;
+
+            }
+            .tabling{
+                background-color: aqua;
+                width: 100%;
+            }
+            button{
+                margin-left: 5vw;
+                background-color: greenyellow;
+
+            }
+            td>span{
+                font-size: 24pt;
+            }
+            dialog{
+                width: 100vw;
+                height: 100vh;
+                color:white;
+                background-color: grey;
+                border-color:  rgb(124, 119, 119);
+            
+            }
+            dialog>button{
+                margin-left:70%;
+            }
+            
+        </style>
+    </head>
+    <body>
+
+        <table class="tabling">
+            <tr>
+                <td>
+                    <button><a href="aboutauthor.html">About Author</a></button><br/>
+                    <button onclick="pageworks.showModal();">How page works</button><br/>
+                    <button onclick="goal.showModal();">Goal of the Survey</button>
+    
+                </td>
+                <td><span>Exclusive Breast Feeding among working mothers- survey.</span></td>
+            </tr>
+        </table><br/>
+        <div class="div1">
+            <div class="div2">
+                <div class="div3">
+                    <h1>Questionnaire:</h1>
+                    <p>Dear participants, I am Wotali J Hadijah pursuing a diploma in midwifery at Mulago
+                        school of nursing and midwifery.</p>
+                    <p>This questionnaire is to get your response about the factors influencing exclusive breast
+                         feeding among working women. And so you are humbly requested to answer questions below
+                          honestly. And for the information you provide, it will be confidentially handled by the
+                           researcher and my supervisor.</p>
+                    
+                </div>
+            </div>
+        </div><br/><br/>
+
+        <div class="div1">
+            <div class="div2">
+                <div class="div3">
+                    <h1>Instructions:</h1>
+                    <ol type="i"><li>Please tick the box or circle the option that best applies to you or write as appropriate  as applicable.</li>
+                    <li>Dont write your name anywhere on this paper.</li>
+                    <li>Answer all questions</li>.
+                    </ol>
+                    
+                    
+                </div>
+            </div>
+        </div><br/><br/>
+
+        <div>
+            <div>
+                <div>
+                    
+                </div>
+            </div>
+        </div>
+        
+        <form>
+            <fieldset>
+                <label><b><span>*</span><br/>1. What is your age bracket?</b><br/>
+                    <input type="checkbox" name="1" value="18">&emsp;18<br/>
+                    <input type="checkbox" name="1" value="19-24">&emsp;19-24<br/>
+                    <input type="checkbox" name="1" value="25-34">&emsp;25-34<br/>
+                    <input type="checkbox" name="1" value="35 and above">&emsp;35 and above<br/>
+     
+                </label>
+            </fieldset><br/>
+           
+
+            <fieldset>
+                <label><b><span>*</span><br/> 2. What is your higher level of education obtained?</b><br/>
+                    <input type="checkbox" name="2" value="Primary">&emsp;Primary<br/>
+                    <input type="checkbox" name="2" value="Secondary">&emsp;Secondary<br/>
+                    <input type="checkbox" name="2" value="Tertiary">&emsp;Tertiary<br/>
+                    <input type="checkbox" name="2" value="None">&emsp;None<br/>
+                </label>
+            </fieldset><br/>
+
+            
+            <fieldset>
+                <label><b><span>*</span><br/>3. What is your marital status?</b><br/>
+                    <input type="checkbox" name="3" value="Single">&emsp;Single<br/>
+                    <input type="checkbox" name="3" value="Married">&emsp;Married<br/>
+                    <input type="checkbox" name="3" value="Separated/divorced">&emsp;Separated/divorced<br/>
+                    &emsp;&emsp;Others specify&emsp;<input type="text" name="3" placeholder="click here to write"/>
+                </label>
+            </fieldset><br/>
+            
+            <fieldset>
+                <label><b><span>*</span><br/> 4. What is your religion?</b><br/>
+                    <input type="checkbox" name="4" value="Moslem">&emsp;Moslem<br/>
+                    <input type="checkbox" name="4" value="Christian">&emsp;Christian<br/>
+                    &emsp;&emsp;Others specify&emsp;<input type="text" name="4" placeholder="click here to write"/>
+                </label>
+            </fieldset><br/>
+
+            
+            <fieldset>
+                <label><b><span>*</span><br/>5.	What is your occupation? </b><br/><input type="text" name="5" placeholder="click here to write"/></label>
+            </fieldset><br/>
+
+            <fieldset>
+                <label><b><span>*</span><br/>6. What is the age of your baby in months?</b><br/><input type="number" name="6" placeholder="click here to write"/></label>
+            </fieldset><br/>
+
+            <fieldset>
+                <label><b><span>*</span><br/> 7. Birth order of child (birth position of your child among your childeren)?</b><br/><input type="number" name="7" placeholder="click here to write"/></label>
+            </fieldset><br/>
+
+            
+            <fieldset>
+                <label><b><span>*</span><br/>8. During your ANC visit, were you sensitized on how you can exclusively breast feed your baby while working?</b><br/>
+                    <input type="checkbox" name="8" value="YES">&emsp;YES<br/>
+                    <input type="checkbox" name="8" value="NO">&emsp;NO<br/>
+                </label>
+            </fieldset><br/>
+
+            <fieldset>
+                <label><b><span>*</span><br/> 9. If yes in the above question (8), how many times?</b><br/>
+                    <input type="checkbox" name="9" value="1-2 times">&emsp;1-2 times<br/>
+                    <input type="checkbox" name="9" value="3-4 times">&emsp;3-4 times<br/>
+                </label>
+            </fieldset><br/>
+
+            <fieldset>
+                <label><b><span>*</span><br/> 10. If the answer in question (8) is no, where did you obtain the sensitisation from?</b><br/>
+                    <input type="checkbox" name="10" value="Friend">&emsp;Friend<br/>
+                    <input type="checkbox" name="10" value="Media">&emsp;Media<br/>
+                    <input type="checkbox" name="10" value="Health worker">&emsp;Health worker<br/>
+                    &emsp;&emsp;Others specify&emsp;<input type="text" name="10" placeholder="click here to write"/>
+
+            </label>
+            </fieldset><br/>
+
+            <fieldset>
+                <label><b><span>*</span><br/>11. Briefly explain the information you obtained on how you can exclusively breast feed your baby while working.</b><br/><textarea name="11" placeholder="click here to write"></textarea></label>
+            </fieldset><br/>
+           <!-- <input type="checkbox" name="" value="">&emsp;<br/>
+            <input type="checkbox" name="" value="">&emsp;<br/>
+            <input type="checkbox" name="" value="">&emsp;<br/>
+            <input type="checkbox" name="" value="">&emsp;<br/>-->
+
+            <fieldset>
+                <label><input type="submit" name="submit" style="margin: 0 auto;background-color: greenyellow;"/></label>
+            </fieldset><br/>
+
+        </form>
+        
+           <dialog id="pageworks">
+               <h1><center>How page works.</center></h1>
+               <ul>
+                   <li>The page allows participants to select a checkbox of their choice for closed questions by clicking in it.</li>
+                   <li>The page allows participants to answer open  questions by writing text into the text fields. </li>
+                   <li>The page allows the participants to submit their answers by clicking on the submit button.</li>
+                   <li>The page collects the answers of participant and sends it to the email address of Wotali Hadijah(the researcher).</li>
+                   <br/><br/>
+                   <button onclick="closid();">ok</button>
+                   <br/>
+               </ul>
+           <script> 
+function closid(params) {
+    var a=document.getElementById("pageworks");
+    a.close();
+
+}
+          
+       </script>
+            </dialog>
+
+            <dialog id="goal">
+                <h1><center>Goal of the survey.</center></h1>
+                <ul>
+                    <li>To investigate the impact of various factors that influence exclusive breast feeding.</li>
+                    <li>To analyise the impact of social, personal and economic factors on exclusive breast feeding.</li>
+                    <li>To present and the analyized data of the survey to responsible organisation so that the government can take action.</li>
+                    <br/><br/>
+                    <button onclick="closig();">ok</button>
+                    <br/>
+                </ul>
+            <script> 
+ function closig(params) {
+     var b=document.getElementById("goal");
+     b.close();
+ }
+           
+        </script>
+             </dialog>
+ 
+    </body>
+    </html>
